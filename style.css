@@ -1,0 +1,228 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .forms-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .patient-details, .patient-status, .contacts, .patient-adress, .delivery-adress, .emergency-contact, .employer-info, .responsible-party, .medical-info, .tax-status, .location {
+    background-color: #ffffff;
+    margin: 10px;
+    width: 45%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .medical-info .message {
+    display: inline-flex;
+    margin-top: 30px;
+  }
+
+  .medical-info .message svg {
+    margin-right: 25px;
+  }
+
+  .medical-info .col-md-3 p {
+    text-wrap: nowrap;
+    margin-top: 30px;
+  }
+
+  header {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .head {
+    display: flex;
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 18px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  label {
+    color: #495057;
+    margin-bottom: 0.5rem;
+    text-wrap: nowrap;
+  }
+
+  input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  .contacts .head, .delivery-adress .head, .tax-status .head {
+    display: flex;
+  }
+
+  .contacts .head .btn {
+    margin-left: 400px;
+  }
+
+  .delivery-adress .head .btn {
+   margin-left: 20px; 
+  }
+
+  .tax-status .head .btn {
+    margin-left: 400px;
+  }
+
+  .delivery-adress .head .para {
+    margin-left: 30px;
+  }
+
+  .buttons {
+    display: inline-flex;
+    margin-right: 50px;
+    margin-top: 300px;
+  }
+
+  .btns {
+    margin: 10px;
+    background-color: white;
+    height: 50px;
+    border: 1px solid gray;
+    width: 100px;
+  }
+
+  .btns:hover {
+    background-color: whitesmoke;
+  }
+
+  .buttons .btn-primary {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    border: none;
+  }
+
+  .buttons .btn-primary:hover {
+    opacity: 0.5;
+  }
+
+  .last-container {
+    justify-content: space-between;
+    margin-left: 27px;
+  }
+
+  .button-add {
+    margin-top: 20px;
+  }
+
+  .btn-add {
+    background-color: whitesmoke;
+  }
+
+  .employer-add-btn {
+    margin-top: 130px;
+  }
+
+  .btn-permisson {
+    width: 100px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;    
+  }
+
+  .btn-permisson:hover {
+    background-color: darkred;
+  }
+
+  .green-btn {
+    background-color: greenyellow;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .inline {
+    display: inline-flex;
+  }
+
+  .data p {
+    font-weight: bold;
+  }
+
+  .data {
+    margin-left: 400px;
+  }
+
+  .location {
+    display: inline-flex;
+  }
+
+  .location svg, .second-container svg, .fourth-container svg, .sixth-container svg {
+    margin-left: 1130px;
+  }
+
+  .second-container svg, .third-container svg, .fourth-container svg, .sixth-container svg, .seventh-container svg, .ninth-container svg {
+    margin-top: 5px;
+  }
+
+  .third-container svg {
+    margin-left: 1170px;
+  }
+
+  .fifth-container svg {
+    margin-left: 1215px;
+  }
+
+  .sixth-container svg {
+    margin-left: 1230px;
+  }
+
+  .seventh-container svg {
+    margin-left: 1100px;
+  }
+
+  .eighth-container svg {
+    margin-left: 1160px;
+  }
+
+  .family-location {
+    margin-left: 500px;
+  }
+
+  .location, .second-container, .third-container, .fourth-container, .fifth-container, .sixth-container, .seventh-container, .eighth-container, .ninth-container {
+    width: 95%;
+  }
+
+  .ninth-container .bi-pencil {
+    margin-left: 1090px;
+  }
+
+  .ninth-container {
+    margin-bottom: 0;
+  }
+
+  .btns-container {
+    margin: 30px;
+  }
+
+  p {
+    text-wrap: nowrap;
+  }
+
+  .links a {
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+  }
+
+  .links {
+    margin-left: 50px;
+  }
